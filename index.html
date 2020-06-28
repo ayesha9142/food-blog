@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("bg1.jpeg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("bg2.jpeg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("bg3.jpeg");
+  min-height: 400px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+ font-size: 30px;
+}
+li a {
+  display: block;
+ font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.one {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+transform: translate(-50%,-50%);
+width: 100%;
+}
+.text1 {
+background-image: url(bgtxt.jpeg);
+  left: 50%;
+  top: 50%;
+position: absolute;
+color: white;
+margin-bottom: 10px;
+font-weight: 7px;
+letter-spacing: 10px;
+ padding: 18px;
+  font-size: 35px;
+animation: letter 3s infinite;
+}
+.text2 {
+   left: 50%;
+  top: 50%;
+position: absolute;
+color: white;
+margin-bottom: 10px;
+font-weight: 7px;
+letter-spacing: 10px;
+ padding: 18px;
+  font-size: 25px;
+font-size: 80px;
+font-weight: 37px;
+margin-bottom: 20px;
+font-family: "Tangerine", serif;
+color: white;
+
+}
+@keyframes letter {
+0% {
+color: black;
+margin-bottom: -40px;
+}
+30% {
+letter-spacing: 15px;
+margin-bottom: -40px;
+}
+85% {
+letter-spacing: 25px;
+margin-bottom: -40px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+}
+img {
+border-radius: 50%;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+<ul>
+  <li><a href="#home">Recipies    <i class="fa fa-sort-desc" ></i></a></li>
+  <li><a href="#news">Services</a></li>
+  <li><a href="#contact">About</a></li>
+  <li><a href="#about">Home</a>
+</li>
+</ul>
+  <span class="text1">Welcome to my </span></br><span class="text2"><b>Food Blog</b></span></span>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: center; border-radius: 50%; ">
+  <h1 style="text-align:center; font-family: 'Tangerine', serif;">Our Specialities</h1>
+<table>
+<tr>
+<td>
+<figure>
+  <img src="indian.jpeg" alt="indian" style="width:100%; border-radius: 50%">
+  <figcaption>Indian</figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="italian.jpeg" alt="italian" style="width:100%; border-radius: 50%">
+  <figcaption>Italian.</figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="momo.jpeg" alt="Chineese" style="width:100%; border-radius: 50%">
+  <figcaption>Chineese</figcaption>
+</figure></td>
+</tr>
+</table>
+</div>
+
+<div class="bgimg-2">
+
+<h1 class="border" style="background-color:transparent;font-size:50px;color: black; font-family: 'Tangerine', serif; text-align: center;">Categories:</h1>
+<center><ul style="float: none;">
+<li style="float: none;"><a href="#">Starter</a><li>
+<li style="float: none;"><a href="#">Main Course</a></li>
+<li style="float: none;"><a href="#">Desert</a></li>
+<li style="float: none;"><a href="#">Soups</a></li></ul></center>
+</div>
+<div style="position:relative;">
+<h1 class="border" style="background-color:transparent;font-size:50px;color: black; font-family: 'Tangerine', serif; text-align: center;">About Me</h1>
+<center><img src="me.jpeg" style="border-radius: 50%">
+<p style=" color: black; "><b>Hi there, I am a food blogger cooking and sharing delicious recipes with the world.Food blogging represents a complex interweaving of “foodie” or gourmet interest in cooking with those of blog writing and photography. The majority of blogs use pictures taken by the author himself/herself and some of them focus specifically on food photography.</b></p>
+</div>
+
+<div class="bgimg-3" style="padding: 0%">
+  <div style="color:#ddd;background-color:transparent;text-align:center;padding:50px 80px;text-align: center;">
+  <h1 style="text-align: center; color: black;font-size:50px; font-family: 'Tangerine', serif;">Join our Newsletter</h1>
+<h3 style="text-align: center; color: black;">Subscribe for our weekly recipes tips, we promise to not spam you</h3>
+ <span style="background-color: black;"> <i class="fa fa-envelope"></i>
+ <input type="email" name="" value="" placeholder="Enter Your Name" >
+<button >Subscribe</button></span>
+
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+ 
+<table>
+<tr>
+
+<td>
+<figure>
+  <img src="noodles.jpeg" alt="Trulli" style="width:100%; height:100%">
+  <figcaption><p style="display: block; color: white;"><a href="" >Noodles</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></td>
+<td><h1 class="border" style="background-color:transparent;font-size:50px;color: white; font-family: 'Tangerine', serif; text-align: center;">Pipular Recipes</h1></td>
+<td>
+<figure>
+  <img src="soup.jpeg" alt="Trulli" style="width:100%; height:100%">
+  <figcaption><p><a href="">Creamy chickpea soup</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="pizza.jpeg
+"  style="width:90%; height:90%;">
+  <figcaption><p><a href="">Red Chile Pizza</a>
+</br><i class="fa fa-clock-o">45 min</i>
+</br><i class="fa fa-eye">20,567</i></p></figcaption>
+</figure></td>
+</tr>
+<tr>
+<td>
+<figure>
+  <img src="soya.jpeg"  style="width:100%; height:100%">
+  <figcaption><p><a href="">Soya Kabab</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="paratha.jpeg"  style="width:100%; height:100%">
+  <figcaption><p><a href="">Aaloo Parathas</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="aalo-matar.jpeg" alt="Trulli" style="width:100%; height:100%">
+  <figcaption><p><a href="">Aaloo Matar</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></td>
+<td>
+<figure>
+  <img src="dosa.jpeg" alt="Trulli" style="width:100%; height:100%">
+  <figcaption><p><a href="">Rava Dosa</a>
+</br><i class="fa fa-clock-o">25 min</i>
+</br><i class="fa fa-eye">10,567</i></p></figcaption>
+</figure></br>
+<button style="background-color: transparent; color:white;">More Recipes>></button></td>
+</table>
+</div>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  
+  <span style="font-size: 60px; color:black; background-color: white; border: 1; text-align: center; top: 50%; left:50%; position:absolute;">Thankyou</span>
+ 
+</div>
+
+</body>
+</html>
